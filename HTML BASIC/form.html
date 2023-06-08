@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Basic</title>
+  </head>
+  <body>
+    <h1>Register</h1>
+    <hr />
+    <form action="">
+      <p>
+        <label for="">User name:</label>
+        <input type="text" minlength="5" maxlength="10" required />
+      </p>
+      <p>
+        <label for="">Password:</label>
+        <input type="password" required />
+      </p>
+      <p>
+        <label for="">Age:</label>
+        <input type="number" min="18" max="100" />
+      </p>
+      <p>
+        <label for="">Email Address:</label>
+        <input type="email" />
+      </p>
+      <p>
+        <label for="">LinkedIn:</label>
+        <input type="url" />
+      </p>
+      <p>
+        <label for="">Date of Birth</label>
+        <input type="date" />
+        <input type="time" />
+      </p>
+      <p>
+        <label for="">Message</label>
+        <textarea cols="80" rows="5"></textarea>
+      </p>
+      <p>
+        <label for="">Gender:</label>
+        <input type="radio" name="gender" />
+        <label for="">Male:</label>
+        <input type="radio" name="gender" />
+        <label for="">Female:</label>
+      </p>
+      <p>
+        <label for="">Select a occupation</label>
+        <select name="" id="">
+          <option value="">-select-</option>
+          <option value="">hospitality</option>
+          <option value="">IT</option>
+          <option value="">Health &Service</option>
+        </select>
+      </p>
+      <p>
+        <label for="">Upload profile photo</label>
+        <input type="file" accept="image/*" />
+      </p>
+      <p>
+        <input type="checkbox" />
+        <label for="">Please agree all the terms and conditions</label>
+      </p>
+      <p>
+        <button>Submit</button>
+      </p>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+body {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  border: border-box;
+}
+.parent {
+  background: lightgreen;
+  padding: 10px;
+  display: flex;
+  min-height: 60vh;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.parent div {
+  background: grey;
+  width: 70px;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+}
+.parent div:nth-child(odd) {
+  background: red;
+}
+.item-5 {
+  align-self: flex-start;
+}
+.item-4 {
+  order: -1;
+}
